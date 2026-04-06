@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { motion } from 'motion/react'
 
 const About = () => {
   return (
@@ -13,12 +13,16 @@ const About = () => {
                 Bio
               </h2>
               <div className="space-y-6 font-feature-advanced">
-                <p className="font-sans text-lg leading-relaxed text-slate-600">
+                <motion.p
+                               initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.6 }}
+                  className="font-sans text-lg leading-relaxed text-slate-600">
                   27 years old working as a Wealth Manager.Making the impossible possible by transitioning from sales to Software Enginner. Focused on  build real products, smart systems and maybe one day create something as impactful as a great tech company.
-                </p>
-                <p className="leading-relaxed text-slate-600 font-bold italic">
+                </motion.p>
+                <motion.p
+                               initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.5 }}
+                  className="leading-relaxed text-slate-600 font-bold italic">
                   Currently based in Kolkata,India.
-                </p>
+                </motion.p>
               </div>
             </section>
             <section className="space-y-8">
@@ -26,9 +30,11 @@ const About = () => {
                 Personal Story
               </h2>
               <div className="space-y-6">
-                <p className="font-sans text-lg leading-relaxed text-slate-600 ">
+                <motion.p
+                               initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.7 }}
+                  className="font-sans text-lg leading-relaxed text-slate-600 ">
                   I started my career in the financial field. I am working as a Wealth Manager. where I helped people  solve there financial problems.Deep inside me  I knew I wanted more. I wanted to build things, not just sell or advise.I started with Python and slowly moved into web-development . Learning while working a full-time job was not easy, but I stayed consistent.My long-term dream is to shift my career from investment advisory to software engineer. 
-                </p>
+                </motion.p>
               </div>
             </section>
             <section className="space-y-8">
@@ -36,7 +42,9 @@ const About = () => {
                 Connect
               </h2>
               <div className="space-y-6">
-                <p className="font-sans text-lg leading-relaxed text-slate-600">
+                <motion.p
+                               initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.9, delay: 0.9 }}
+                  className="font-sans text-lg leading-relaxed text-slate-600">
                   For business inquiries or just a
                   friendly hello email me at <br className="hidden lg:block" />
                   <a
@@ -45,7 +53,7 @@ const About = () => {
                   >
                     abhijitmondal012@gmail.com
                   </a>
-                </p>
+                </motion.p>
               </div>
             </section>
           </div>
