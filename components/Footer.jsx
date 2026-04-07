@@ -15,12 +15,12 @@ const Footer = () => {
           </div>
          <div className='py-6'>
   <div className='text-center sm:flex items-center justify-between border-t border-gray-400 max-w-5xl mx-auto pt-6'>
-    <p>2026 Abhijit. All rights reserved</p>
+    <p>© 2026 Abhijit. All rights reserved</p>
     <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-      <li><a target='_blank' className='hover:text-gray-300' href="https://www.google.com">Github</a></li>
-      <li><a target='_blank' className='hover:text-gray-300' href="https://www.google.com">Instagram</a></li>
-      <li><a target='_blank' className='hover:text-gray-300' href="https://www.google.com">X</a></li>
-      <li><a target='_blank' className='hover:text-gray-300' href="https://www.google.com">Linkdin</a></li>
+      <li><a target='_blank' className='hover:text-gray-300' href="https://github.com/Quantabhi?tab=repositories">Github</a></li>
+      <li><a target='_blank' className='hover:text-gray-300' href="hhttps://www.instagram.com/mondalabhi23">Instagram</a></li>
+      <li><a target='_blank' className='hover:text-gray-300' href="https://x.com/abhijitmondal22">X</a></li>
+      <li><a target='_blank' className='hover:text-gray-300' href="https://www.linkedin.com">Linkdin</a></li>
     </ul>
   </div>
 </div>

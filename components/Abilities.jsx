@@ -13,7 +13,7 @@ const Abilities = () => {
               <Image src={assets.ab_img} alt='user' className='w-full rounded-3xl' ></Image>
         </div>
               <div className='flex-1'>
-                  <p className='mb-10 max-w-2xl font-mono'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga harum eum veritatis deserunt. Cum exercitationem odio ratione, dolor quae voluptatum adipisci quas debitis veniam doloremque quibusdam vitae est reiciendis aliquid?</p>
+                  <p className='mb-10 max-w-2xl font-mono'>Build modern, scalable, and user-friendly web applications. I enjoy turning ideas into real-world digital solutions using clean and efficient code.</p>
                   <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w- 2xl'>
                       {infoList.map(({ icon, iconDark, title, description }, index) => (
                           <li className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer

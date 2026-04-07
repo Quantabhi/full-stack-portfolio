@@ -6,7 +6,7 @@ function Work() {
   return (
     <div id='work' className='w-full px-[12%] py-10 scale-mt-20' >
           <h2 className='text-center text-5xl'> My Current Works</h2>
-          <p className='text-center max-w-2xl mx-auto mt-5 mb-12 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eius nostrum. Natus ipsa ex fugiat amet. Cum veniam distinctio maiores ratione et cupiditate? Modi sunt dolores dolorum non, iusto ex?</p>
+          <p className='text-center max-w-2xl mx-auto mt-5 mb-12 '>Currently building full stack web applications using Next.js and React, focusing on responsive design, performance, and modern UI/UX. Actively improving backend skills, deploying projects on Vercel, and exploring animations with Framer Motion.</p>
 
           <div>
 
