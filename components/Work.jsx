@@ -47,7 +47,7 @@ function Work() {
           >
 
             {/* Card 1 */}
-            <div className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-black transition-all w-[400px]">
+            <div className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-black transition-all w-[350px]">
               <div className="p-6 flex justify-between items-start">
                 <div>
                   <h3 className="text-[#111418] text-lg font-bold font-mono">
@@ -123,7 +123,7 @@ function Work() {
             </div>
 
             {/* Card 2 */}
-            <div className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-black transition-all w-[400px]">
+            <div className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-black transition-all w-[350px]">
               <div className="p-6 flex justify-between items-start">
                 <div>
                   <h3 className="text-[#111418] text-lg font-bold font-mono">
@@ -199,7 +199,7 @@ function Work() {
             </div>
 
             {/* Card 3 */}
-            <div className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-black transition-all w-[400px]">
+            <div className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-black transition-all w-[350px]">
               <div className="p-6 flex justify-between items-start">
                 <div>
                   <h3 className="text-[#111418] text-lg font-bold font-mono">
@@ -274,7 +274,7 @@ function Work() {
               </div>
             </div>
             {/* card 3 */}
-            <div className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-black transition-all w-[400px]">
+            <div className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-black transition-all w-[350px]">
               <div className="p-6 flex justify-between items-start">
                 <div>
                   <h3 className="text-[#111418] text-lg font-bold font-mono">
@@ -351,18 +351,18 @@ function Work() {
             </div>
 
             {/* card 4  */}
-            <div className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-black transition-all w-[400px]">
+            <div className="group flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-black transition-all w-[350px]">
               <div className="p-6 flex justify-between items-start">
                 <div>
                   <h3 className="text-[#111418] text-lg font-bold font-mono">
-                    Sign-Up Page
+                     Video Background Landing Page
                   </h3>
                   <p className="text-gray-500 text-xs mt-1 uppercase">
-                    Web Architecture
+                    Web Animation
                   </p>
                 </div>
                 <a className="text-gray-400 hover:text-black transition-colors"
-                  href="https://github.com/Quantabhi/SingUp-page">
+                  href="https://github.com/Quantabhi/video-background-landing-page">
                   <span className="material-symbols-outlined text-[24px]">
                     code
                   </span>
@@ -374,30 +374,30 @@ function Work() {
                   <div className="space-y-1">
                     <div className="flex justify-between text-[10px] font-mono text-gray-600 font-bold uppercase">
                       <span>HTML</span>
-                      <span>40%</span>
+                      <span>54%</span>
                     </div>
                     <div className="h-1.5 w-full bg-gray-100 rounded-full overflow-hidden">
-                      <div className="h-full w-[40%] bg-gray-300 group-hover:bg-black transition-all"></div>
+                      <div className="h-full w-[54%] bg-gray-300 group-hover:bg-black transition-all"></div>
                     </div>
                   </div>
 
                   <div className="space-y-1">
                     <div className="flex justify-between text-[10px] font-mono text-gray-600 font-bold uppercase">
                       <span>CSS</span>
-                      <span>35%</span>
+                      <span>46%</span>
                     </div>
                     <div className="h-1.5 w-full bg-gray-100 rounded-full overflow-hidden">
-                      <div className="h-full w-[35%] bg-gray-300 group-hover:bg-black transition-all"></div>
+                      <div className="h-full w-[46%] bg-gray-300 group-hover:bg-black transition-all"></div>
                     </div>
                   </div>
 
                   <div className="space-y-1">
                     <div className="flex justify-between text-[10px] font-mono text-gray-600 font-bold uppercase">
                       <span>JavaScript</span>
-                      <span>25%</span>
+                      <span>2%</span>
                     </div>
                     <div className="h-1.5 w-full bg-gray-100 rounded-full overflow-hidden">
-                      <div className="h-full w-[25%] bg-gray-300 group-hover:bg-black transition-all"></div>
+                      <div className="h-full w-[2%] bg-gray-300 group-hover:bg-black transition-all"></div>
                     </div>
                   </div>
                 </div>
@@ -410,7 +410,7 @@ function Work() {
                   </div>
                   <div className="font-mono text-[10px] text-gray-600">
                     <p>
-                      A modern sign-up page with form validation and responsive design.
+                      This is a simple demo landing page project where I learned how to use a fullscreen video background with clean and attractive UI elements.
                     </p>
                   </div>
                 </div>
@@ -425,7 +425,6 @@ function Work() {
                 </span>
               </div>
             </div>
-
           </motion.div>
         </div>
       </div>
