@@ -17,7 +17,7 @@ const Contact = () => {
 
     const data = await response.json();
     if (data.success) {
-      setResult("Thank you for your submission 😊");
+      setResult("Thank you for your submission");
       event.target.reset();
     } else {
       setResult("Error");
