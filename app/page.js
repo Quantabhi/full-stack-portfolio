@@ -6,6 +6,7 @@ import Abilities from "@/components/Abilities";
 import Work from "@/components/Work";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Githubrepo from "@/components/Githubrepo";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Abilities/>    
       <Work/>    
       <Contact/>    
+      <Githubrepo/>    
       <Footer/>    
     </>
   );
